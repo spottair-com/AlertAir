@@ -1,3 +1,5 @@
+![AlertAir sample mail notification](AlertAir_sample.png)
+
 # AlertAir
 The **AlertAir** is a small Linux (Bash) utility for [Virtual Radar Server](http://www.virtualradarserver.co.uk/) to notify via email on new aircraft defined by user.
 
