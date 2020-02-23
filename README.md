@@ -3,7 +3,7 @@
 # AlertAir
 The **AlertAir** is a small Linux (Bash) utility for [Virtual Radar Server](http://www.virtualradarserver.co.uk/) to notify via email on new aircraft defined by user.
 
-The general concept for AlertAir is as follows:
+The general concept behind AlertAir is as follows:
 * the AlertAir Bash script is exectued by crontab every five minutes
 * the VRS BaseStation.sqb database is queried for user-defined aircraft being first-seen airborne within the last five minutes
 * if there are any aircraft matching user-defined criteria found an email with aircraft data is sent to the user
