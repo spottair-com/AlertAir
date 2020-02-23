@@ -11,3 +11,11 @@ The general concept for AlertAir is as follows:
 * Virtual Radar Server up and running (Mono-based Linux version)
 * Plugin DataBase Writer installed
 * BaseStation.sqb database being fed with aircraft/flight data
+
+## Setup
+* Download the ZIP file
+* Create a directory (e.g. within your home folder) und unzip the files into it
+* Make the script file executable (chmod +x AlertAir.sh)
+* Open the alertair-config.txt file to define your own aircraft to alert
+* Open the AlertAir.sh file and head to the section "User-defined variables" to set your specific mail parameters etc.
+* Don't alter the section "Helper variables, not user-defined" in the AlertAir.sh file
