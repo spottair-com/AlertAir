@@ -21,5 +21,10 @@ The general concept for AlertAir is as follows:
 * Open the AlertAir.sh file and head to the section "User-defined variables" to set your specific mail parameters etc.
 * Do not alter the section "Helper variables, not user-defined" in the AlertAir.sh file
 * Open crontab with `sudo crontab -e` and put into it: `*/5 * * * * /<absolute_path_to_the_script>/AlertAir.sh` 
-* Note: all AlertAir files (the script `AlertAir.sh`, `alertair-config.txt` and `alertair-log.txt` are placed in the same directory 
+* Note: all AlertAir files (the script `AlertAir.sh`, the helper files `alertair-config.txt` and `alertair-log.txt`) are placed in the same directory 
 * Note: script creates some temporary files which are removed after script's execution
+
+## Others
+* The AlertAir utility was tested on Debian 10
+* Please bear in mind that I am not a professional developer
+* There is a great, easy to use Windows-based utility PlaneAlerter with many functionalities available
