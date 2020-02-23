@@ -11,9 +11,9 @@ The general concept behind AlertAir is as follows:
 
 ## Prerequisites
 * Virtual Radar Server up and running (Mono-based Linux version)
-* Plugin DataBase Writer for Virtual Radar Server installed
-* BaseStation.sqb database being fed with aircraft/flight data
-* The utilities SWAKS (SMTP handling) and SQLITE3 (aircraft/flight database querying) installed
+* Plugin DataBase Writer for Virtual Radar Server installed and set up
+* BaseStation.sqb database created and being fed with aircraft/flight data
+* The utilities SWAKS (mail handling) and SQLITE3 (aircraft/flight database querying) installed
 
 ## Setup
 * Download the ZIP file
