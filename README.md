@@ -26,5 +26,6 @@ The general concept for AlertAir is as follows:
 
 ## Others
 * The AlertAir utility was tested on Debian 10
+* Best results in terms of non-spam reporting were achieved if using a dedictated Gmail account for sending mails. Note that you have to generate an [application password for Gmail](https://support.google.com/accounts/answer/185833?hl=en) if using Google's two-factor authentication
 * Please bear in mind that I am not a professional developer
 * There is a great, easy to use Windows-based utility PlaneAlerter with many functionalities available
