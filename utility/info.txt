@@ -1,0 +1,9 @@
+This directory contains the AlertAir files:
+* AlertAir.sh
+* alert-config.txt
+
+Place them into a directory of your choice
+Configure user-defined variables in AlertAir.sh
+Define the aircraft to search for in alert-config.txt
+Make AlertAir.sh executable with chmod +x
+Put 
