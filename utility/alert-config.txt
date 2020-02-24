@@ -1,0 +1,23 @@
+### Aircraft config file for AlertAir utility
+### Following search criteria are supported:
+### Registration, Airline, Aircraft (ICAO designator), Type
+### Wildcard search is not supported
+### Replace spaces within names with underscore
+### All entries are not case sensitive
+### Lines starting with hash (#) are just comments
+### Comments may be placed behind search criteria
+### Entries below are just samples
+
+### R e g i s t r a t i o n s
+04-2021					# USAF UAV Northrop Grumman RQ-4 
+02-9111					# Boeing E-8 Joint STARS
+
+### A i r l i n e s
+Polish_Air_Force
+
+### A i r c r a f t (ICAO)
+E3CF					# Boeing E-3 Sentry
+E3TF					# Boeing E-3 Sentry
+
+### T y p e
+Teledyne_Ryan_RQ-4A_Global_Hawk		# USAF UAV Northrop Grumman RQ-4
