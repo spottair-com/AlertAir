@@ -31,4 +31,4 @@ The general concept behind AlertAir is as follows:
 * Best results in terms of non-spam reporting were achieved if using a dedictated Gmail account for sending mails. Note that you have to generate an [application password for Gmail](https://support.google.com/accounts/answer/185833?hl=en) if using Google's two-factor authentication
 * Please bear in mind that I am not a professional developer
 * The AlertAir utility is provided under [MIT license](LICENSE)
-* There is a great, easy to use Windows-based utility PlaneAlerter with many functionalities available
+* There is a great, easy to use Windows-based utility [PlaneAlerter](https://github.com/Dom2364/PlaneAlerter) by Dom2364 with many functionalities available
