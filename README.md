@@ -17,6 +17,7 @@ The general concept behind AlertAir is as follows:
 
 ## Setup
 * Download the ZIP file
+* Head to the "utility/" subdirectory and extract files from it 
 * Create a directory (e.g. within your home folder) und unzip the files into it
 * Make the script file executable (`chmod +x AlertAir.sh`)
 * Open the alertair-config.txt file to define your own aircraft to alert. Simple how-to guidelines are found in it
