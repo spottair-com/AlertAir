@@ -19,7 +19,7 @@ The general concept behind AlertAir is as follows:
 * Download the ZIP file
 * Head to the "utility/" subdirectory and extract files from it 
 * Create a directory (e.g. within your home folder) und unzip the files into it
-* Make the script file executable (`chmod +x AlertAir.sh`)
+* Make the script file executable (`chmod u+x AlertAir.sh`)
 * Open the alertair-config.txt file to define your own aircraft to alert. Simple how-to guidelines are found in it
 * Open the AlertAir.sh file and head to the section "User-defined variables" to set your specific mail parameters etc. This is a one-off task
 * Do not alter the section "Helper variables, not user-defined" in the AlertAir.sh file
