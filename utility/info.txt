@@ -5,5 +5,5 @@ This directory contains the AlertAir files:
 Place them into a directory of your choice within you home folder
 Configure user-defined variables in AlertAir.sh
 Define the aircraft to search for in alert-config.txt
-Make AlertAir.sh executable with chmod +x
+Make AlertAir.sh executable with chmod u+x
 Open crontab with sudo crontab -e and put into it: */5 * * * * /<absolute_path_to_the_script>/AlertAir.sh
