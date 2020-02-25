@@ -7,7 +7,7 @@ The general concept behind AlertAir is as follows:
 * the AlertAir Bash script is exectued by crontab every five minutes
 * the VRS BaseStation.sqb database is queried for user-defined aircraft being first-seen airborne within the last five minutes
 * if there are any aircraft matching user-defined criteria found an email with aircraft data is sent to the user
-* the result of every five-minute query is logged to the `alert-log.txt file`
+* the result of every five-minute query is logged to the `alert-log.txt` file
 
 ## Prerequisites
 * Virtual Radar Server up and running (Mono-based Linux version)
@@ -22,7 +22,7 @@ The general concept behind AlertAir is as follows:
 * Make the script file executable (`chmod u+x AlertAir.sh`)
 * Open the alert-config.txt file to define your own aircraft to alert. Simple how-to guidelines are found in it
 * Open the AlertAir.sh file and head to the section "User-defined variables" to set your specific mail parameters etc. This is a one-off task
-* Do not alter the section "Helper variables, not user-defined" in the AlertAir.sh file
+* Do not alter the section "Helper variables, not user-defined" in the `AlertAir.sh` file
 * Open crontab with `sudo crontab -e` and put into it: `*/5 * * * * /<absolute_path_to_the_script>/AlertAir.sh` 
 * Note: all AlertAir files (the script `AlertAir.sh`, the helper files `alert-config.txt` and `alert-log.txt`) are placed in the same directory 
 * Note: the script creates some temporary files which are removed after script's execution
