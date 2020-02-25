@@ -17,14 +17,14 @@ The general concept behind AlertAir is as follows:
 
 ## Setup
 * Download the ZIP file
-* Head to the "utility/" subdirectory and extract files from it (`AlertAir.sh` and `alertair-config.txt`)
+* Head to the "utility/" subdirectory and extract files from it (`AlertAir.sh` and `alert-config.txt`)
 * Create a directory (e.g. within your home folder) and copy the extracted files there
 * Make the script file executable (`chmod u+x AlertAir.sh`)
-* Open the alertair-config.txt file to define your own aircraft to alert. Simple how-to guidelines are found in it
+* Open the alert-config.txt file to define your own aircraft to alert. Simple how-to guidelines are found in it
 * Open the AlertAir.sh file and head to the section "User-defined variables" to set your specific mail parameters etc. This is a one-off task
 * Do not alter the section "Helper variables, not user-defined" in the AlertAir.sh file
 * Open crontab with `sudo crontab -e` and put into it: `*/5 * * * * /<absolute_path_to_the_script>/AlertAir.sh` 
-* Note: all AlertAir files (the script `AlertAir.sh`, the helper files `alertair-config.txt` and `alertair-log.txt`) are placed in the same directory 
+* Note: all AlertAir files (the script `AlertAir.sh`, the helper files `alert-config.txt` and `alert-log.txt`) are placed in the same directory 
 * Note: the script creates some temporary files which are removed after script's execution
 
 ## Others
