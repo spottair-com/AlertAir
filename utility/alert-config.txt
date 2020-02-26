@@ -1,9 +1,10 @@
 ### Aircraft config file for AlertAir utility
 ### Following search criteria are supported:
 ### Registration, Airline, Aircraft (ICAO designator), Type
+### Only exact matching is supported
 ### Wildcard search is not supported
-### Replace spaces within names with underscore
-### All entries are not case sensitive
+### Replace spaces within names with underscore "_"
+### Entries are not case sensitive
 ### Lines starting with hash (#) are just comments
 ### Comments may be placed behind search criteria
 ### Entries below are just samples
