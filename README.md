@@ -4,7 +4,7 @@
 **AlertAir** is a small and simple Linux (Bash) utility for [Virtual Radar Server](http://www.virtualradarserver.co.uk/) to notify via email on new aircraft defined by user.
 
 The general concept behind AlertAir is as follows:
-* the AlertAir Bash script is exectued by crontab every five minutes
+* the AlertAir Bash script is executed by crontab every five minutes
 * the VRS BaseStation.sqb database is queried for user-defined aircraft being first-seen airborne within the last five minutes
 * if there are any aircraft matching user-defined criteria found an email with aircraft data is sent to the user
 * the result of every five-minute query is logged to the `alert-log.txt` file
@@ -29,8 +29,8 @@ The general concept behind AlertAir is as follows:
 
 ## Others
 * AlertAir was tested on Debian 10
-* AlertAir was tested with Virtual Radar Server version 2.4 but should run also with the lastest one as the VRS database remained unchanged
-* Best results in terms of non-spam reporting were achieved if using a dedictated Gmail account for sending mails. Note that you have to generate an [application password for Gmail](https://support.google.com/accounts/answer/185833?hl=en) if using Google's two-factor authentication
+* AlertAir was tested with Virtual Radar Server version 2.4 but should run also with the latest one as the VRS database remained unchanged
+* Best results in terms of non-spam reporting were achieved if using a dedicated Gmail account for sending mails. Note that you have to generate an [application password for Gmail](https://support.google.com/accounts/answer/185833?hl=en) if using Google's two-factor authentication
 * Please bear in mind that I am not a professional developer
 * The AlertAir utility is provided under [MIT license](LICENSE)
 * There is a great, easy to use Windows-based utility [PlaneAlerter](https://github.com/Dom2364/PlaneAlerter) by Dom2364 with many functionalities available
