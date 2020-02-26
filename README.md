@@ -1,7 +1,7 @@
 ![AlertAir sample mail notification](AlertAir_sample.png)
 
 # AlertAir
-The **AlertAir** is a small and simple Linux (Bash) utility for [Virtual Radar Server](http://www.virtualradarserver.co.uk/) to notify via email on new aircraft defined by user.
+**AlertAir** is a small and simple Linux (Bash) utility for [Virtual Radar Server](http://www.virtualradarserver.co.uk/) to notify via email on new aircraft defined by user.
 
 The general concept behind AlertAir is as follows:
 * the AlertAir Bash script is exectued by crontab every five minutes
@@ -20,8 +20,8 @@ The general concept behind AlertAir is as follows:
 * Head to the "utility/" subdirectory and extract files from it (`AlertAir.sh` and `alert-config.txt`)
 * Create a directory (e.g. within your home folder) and copy the extracted files there
 * Make the script file executable (`chmod u+x AlertAir.sh`)
-* Open the alert-config.txt file to define your own aircraft to alert. Simple how-to guidelines are found in it
-* Open the AlertAir.sh file and head to the section "User-defined variables" to set your specific mail parameters etc. This is a one-off task
+* Open the `alert-config.txt` file to define your own aircraft to alert. Simple how-to guidelines are found in it
+* Open the `AlertAir.sh` file and head to the section "User-defined variables" to set your specific mail parameters etc. This is a one-off task
 * Do not alter the section "Helper variables, not user-defined" in the `AlertAir.sh` file
 * Open crontab with `sudo crontab -e` and put into it: `*/5 * * * * /<absolute_path_to_the_script>/AlertAir.sh` 
 * Note: all AlertAir files (the script `AlertAir.sh`, the helper files `alert-config.txt` and `alert-log.txt`) are placed in the same directory 
