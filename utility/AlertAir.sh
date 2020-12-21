@@ -42,14 +42,10 @@ function get_alerted_list () {
 # Read and parse aircraft_file
 
 aircraft_list="'"
-aircraft_list+=$(sed '/^#/d' $aircraft_file | \
-                 sed 's/#.*//g' | \
-                 sed 's/[^A-Za-z0-9_-+]//g' | \
-                 sed ':a;N;$!ba;s/\n/\x27,\x27/g' | \
-                 sed 's/_/ /g' | \
-                 sed 's/,\x27\x27,/,/g')
+aircraft_list+=$(sed '/^#/d' $aircraft_file |
+		 sed 's/#.*//g' | 
+		 sed ':a;N;$!ba;s/\n/\x27,\x27/g')
 aircraft_list+="'"
-
 }
 
 function db_query () {
