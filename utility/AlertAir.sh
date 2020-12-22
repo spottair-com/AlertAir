@@ -44,7 +44,8 @@ function get_alerted_list () {
 aircraft_list="'"
 aircraft_list+=$(sed '/^#/d' $aircraft_file |
 		 sed 's/#.*//g' | 
-		 sed ':a;N;$!ba;s/\n/\x27,\x27/g')
+		 sed ':a;N;$!ba;s/\n/\x27,\x27/g' |
+		 sed s/\	\'//)
 aircraft_list+="'"
 }
 
